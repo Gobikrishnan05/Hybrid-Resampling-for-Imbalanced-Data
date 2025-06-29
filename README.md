@@ -5,13 +5,13 @@ A Comparative Study of SMOTE, Tomek Links, LSSA+SMOTE, and Graph KNN+SMOTE with 
 **Guide:** Dr. S. Jayachandran  
 **Affiliation:** Department of Data Science, SASTRA Deemed University, Chennai
 
----
+
 
 ## 📌 Overview
 
 This project investigates the effectiveness of multiple hybrid resampling techniques in handling **imbalanced datasets**—specifically for **credit card fraud detection**. The study evaluates seven experimental setups using **Support Vector Machine (SVM)** as the core classifier and applies resampling techniques like **SMOTE**, **Tomek Links**, **LSSA**, and the proposed **Graph KNN-SMOTE**.
 
----
+
 
 ## 🧠 Techniques Compared
 
@@ -23,7 +23,6 @@ This project investigates the effectiveness of multiple hybrid resampling techni
 6. **LSSA + SMOTE**  
 7. **Graph KNN-SMOTE** ✅ *Best Performing*
 
----
 
 ## 📊 Dataset
 
@@ -35,7 +34,7 @@ This project investigates the effectiveness of multiple hybrid resampling techni
   - `distance_from_home`, `distance_from_last_transaction`
   - `used_chip`, `used_pin_number`
 
----
+
 
 ## 🧪 Experimental Setup
 
@@ -44,7 +43,7 @@ Each technique was evaluated with:
 - **Feature Standardization**
 - **Custom Feature Engineering & Cleaning**
 
----
+
 
 ## 📈 Performance Comparison
 
@@ -60,7 +59,7 @@ Each technique was evaluated with:
 
 ✅ **Graph KNN-SMOTE** offered the best trade-off between high recall and low false negatives, making it most suitable for fraud detection.
 
----
+
 
 ## 🔍 Key Insights
 
@@ -70,7 +69,7 @@ Each technique was evaluated with:
 - **LSSA** optimized hyperparameters but required high computational cost.
 - **Graph KNN-SMOTE**, a geometry-aware oversampling method, yielded the most balanced and robust results with **F1-score: 0.948**.
 
----
+
 
 ## 🧰 Tools & Libraries Used
 
@@ -80,7 +79,7 @@ Each technique was evaluated with:
 - Imbalanced-learn
 - Matplotlib, Seaborn
 
----
+
 
 ## 🔮 Future Work
 
@@ -89,7 +88,6 @@ Each technique was evaluated with:
 - Experiment with **deep learning** and **ensemble-based meta classifiers**.
 - Extend to **multi-class imbalance** scenarios.
 
----
 
 ## 🧑‍💼 Author
 
